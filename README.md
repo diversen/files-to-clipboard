@@ -20,8 +20,9 @@ sudo apt install xclip
 Copy the script to a directory in your PATH, for example:
 
 ```bash
-cp files_to_clipboard.py /usr/local/bin/files-to-clipboard
-chmod +x /usr/local/bin/files-to-clipboard
+wget https://raw.githubusercontent.com/diversen/files-to-clipboard/refs/heads/main/files_to_clipboard.py
+sudo mv files_to_clipboard.py /usr/local/bin/files-to-clipboard
+sudo chmod +x /usr/local/bin/files-to-clipboard
 ```
 
 # Usage
