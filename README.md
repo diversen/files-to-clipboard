@@ -20,7 +20,7 @@ sudo apt install xclip
 Copy the script to a directory in your PATH, for example:
 
 ```bash
-cp files-to-clipboard.py /usr/local/bin/files-to-clipboard
+cp files_to_clipboard.py /usr/local/bin/files-to-clipboard
 chmod +x /usr/local/bin/files-to-clipboard
 ```
 
