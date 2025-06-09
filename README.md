@@ -34,17 +34,17 @@ This will produce something like this in the clipboard:
 
 ```
 --- FILE START: tests/file_1.txt ---
-This is file 1
+Content of file 1
 --- FILE END: tests/file_1.txt ---
 
 --- FILE START: tests/file_2.txt ---
-This is file 2
+Content of file 2
 --- FILE END: tests/file_2.txt ---
 
 --- FILE START: tests/file_3.txt ---
-This is file 3
+Content of file 3
 --- FILE END: tests/file_3.txt ---
-
+```
 
 You may use multiple arguments:
 
