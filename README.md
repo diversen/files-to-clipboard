@@ -32,7 +32,8 @@ files-to-clipboard tests*
 
 This will produce something like this in the clipboard:
 
-```--- FILE START: tests/file_1.txt ---
+```
+--- FILE START: tests/file_1.txt ---
 This is file 1
 --- FILE END: tests/file_1.txt ---
 
