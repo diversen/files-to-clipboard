@@ -27,10 +27,25 @@ chmod +x /usr/local/bin/files-to-clipboard
 # Usage
 
 ```bash
-files-to-clipboard tests/file1.txt tests/file2.txt tests/file3.txt
+files-to-clipboard tests*
 ```
 
-OR
+This will produce something like this in the clipboard:
+
+```--- FILE START: tests/file_1.txt ---
+This is file 1
+--- FILE END: tests/file_1.txt ---
+
+--- FILE START: tests/file_2.txt ---
+This is file 2
+--- FILE END: tests/file_2.txt ---
+
+--- FILE START: tests/file_3.txt ---
+This is file 3
+--- FILE END: tests/file_3.txt ---
+
+
+You may use multiple arguments:
 
 ```bash
 files-to-clipboard tests/* README.md
