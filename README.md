@@ -1,4 +1,4 @@
-# files-to-clipboard
+# poor-mans-agent
 
 Simple Python script to generate a LLM context.
 I am using it in order to test programming with the help of AI tools.
