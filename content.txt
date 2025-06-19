@@ -27,5 +27,5 @@ This is a test.
 </directory>
 
 <path='test_content.py'>
-print("Test test,content.py loaded successfully.")
+print("Test test_content.py loaded successfully.")
 </path>

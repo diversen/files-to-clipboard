@@ -60,7 +60,7 @@ This is a test.
 </directory>
 
 <path='test_content.py'>
-print("Test test,content.py loaded successfully.")
+print("test_content.py loaded successfully.")
+print("!!!")
 </path>
-
 ```
