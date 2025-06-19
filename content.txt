@@ -1,3 +1,32 @@
+<system>
+# System Instructions
+
+You are a programmer.
+
+Don't write to many comments. Follow the style of the code. 
+
+You task is to produce some test for the code presented in the following.
+
+</system>
+
+<directory path='/home/dennis/files-to-clipboard'>
+/home/dennis/files-to-clipboard
+├── agents
+│   └── progerammer.md
+├── content.txt
+├── files_to_clipboard.py
+├── LICENSE
+├── README.md
+└── tests
+    ├── file_1.txt
+    ├── file_2.txt
+    └── file_3.txt
+
+3 directories, 8 files
+
+</directory>
+
+<path='files_to_clipboard.py'>
 #!/usr/bin/env python3
 import argparse
 import subprocess
@@ -132,3 +161,16 @@ def main():
 
 if __name__ == '__main__':
     main()
+</path>
+
+<path='tests/file_1.txt'>
+Content of file 1
+</path>
+
+<path='tests/file_2.txt'>
+Content of file 2
+</path>
+
+<path='tests/file_3.txt'>
+Content of file 3
+</path>

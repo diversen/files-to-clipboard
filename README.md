@@ -28,7 +28,7 @@ sudo chmod +x /usr/local/bin/files-to-clipboard
 # Usage
 
 ```bash
-files-to-clipboard tests*
+./files_to_clipboard.py --tree files_to_clipboard.py tests/* --sys agents/programmer.md 
 ```
 
 This will produce something like this in the clipboard:
