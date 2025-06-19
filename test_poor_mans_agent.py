@@ -4,7 +4,7 @@ import os
 import subprocess
 import sys
 import shutil
-from files_to_clipboard import is_binary, get_tree_output, get_sys_file_content, files_to_clipboard
+from poor_mans_agent import is_binary, get_tree_output, get_sys_file_content, files_to_clipboard
 
 class TestFilesToClipboard(unittest.TestCase):
 

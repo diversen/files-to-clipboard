@@ -21,7 +21,7 @@ Copy the script to a directory in your PATH, for example:
 ```bash
 wget https://raw.githubusercontent.com/diversen/poor-mans-agent/refs/heads/main/poor-mans-agent.py
 sudo mv files_to_clipboard.py /usr/local/bin/poor-mans-agent
-sudo chmod +x /usr/local/bin/poor-mans-agent
+sudo chmod +x /usr/local/bin/poormans-agent
 ```
 
 # Usage
@@ -35,7 +35,7 @@ poor-mans-agent--tree --sys agents/test.md test_content.py
 If cloned:
 
 ```bash
-./poor-mans-agent.py --tree --sys agents/test.md test_content.py
+./poor_mans_agent.py --tree --sys agents/test.md test_content.py
 ```
 
 Both script will produce the following output:
