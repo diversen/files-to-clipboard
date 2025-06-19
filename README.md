@@ -31,7 +31,7 @@ sudo chmod +x /usr/local/bin/poor-mans-agent
 If in a PATH directory:
 
 ```bash
-poor-mans-agent--tree --sys agents/test.md test_content.py
+poor-mans-agent --tree --sys agents/test.md test_content.py
 ```
 
 If cloned:
