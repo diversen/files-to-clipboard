@@ -29,8 +29,11 @@ sudo chmod +x /usr/local/bin/files-to-clipboard
 
 ```bash
 ./files_to_clipboard.py --tree files_to_clipboard.py tests/* --sys agents/programmer.md 
-
 ```
+
+Will produce the following output:
+
+```xml
 <system>
 # Test instructions
 
