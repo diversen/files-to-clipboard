@@ -10,17 +10,19 @@ This is a test.
 │   ├── programmer.md
 │   └── test.md
 ├── content.txt
-├── files_to_clipboard.py
 ├── LICENSE
+├── poor_mans_agent.py
+├── __pycache__
+│   └── poor_mans_agent.cpython-312.pyc
 ├── README.md
 ├── test_content.py
-├── test_files_to_clipboard.py
+├── test_poor_mans_agent.py
 └── tests
     ├── file_1.txt
     ├── file_2.txt
     └── file_3.txt
 
-3 directories, 11 files
+4 directories, 12 files
 
 </directory>
 
