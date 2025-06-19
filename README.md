@@ -29,26 +29,38 @@ sudo chmod +x /usr/local/bin/files-to-clipboard
 
 ```bash
 ./files_to_clipboard.py --tree files_to_clipboard.py tests/* --sys agents/programmer.md 
-```
-
-This will produce something like this in the clipboard:
 
 ```
---- FILE START: tests/file_1.txt ---
-Content of file 1
---- FILE END: tests/file_1.txt ---
+<system>
+# Test instructions
 
---- FILE START: tests/file_2.txt ---
-Content of file 2
---- FILE END: tests/file_2.txt ---
+This is a test.
+</system>
 
---- FILE START: tests/file_3.txt ---
-Content of file 3
---- FILE END: tests/file_3.txt ---
-```
+<directory path='/home/dennis/files-to-clipboard'>
+/home/dennis/files-to-clipboard
+├── agents
+│   ├── programmer.md
+│   └── test.md
+├── content.txt
+├── files_to_clipboard.py
+├── LICENSE
+├── __pycache__
+│   └── files_to_clipboard.cpython-312.pyc
+├── README.md
+├── test_content.py
+├── test_files_to_clipboard.py
+└── tests
+    ├── file_1.txt
+    ├── file_2.txt
+    └── file_3.txt
 
-You may use multiple arguments:
+4 directories, 12 files
 
-```bash
-files-to-clipboard tests/* README.md
+</directory>
+
+<path='test_content.py'>
+print("Test test,content.py loaded successfully.")
+</path>
+
 ```
