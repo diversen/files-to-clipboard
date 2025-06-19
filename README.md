@@ -1,6 +1,6 @@
 # files-to-clipboard
 
-Simple Python script to copy multiple files to the clipboard. 
+Simple Python script to copy multiple files to the clipboard.
 I am using it in order to generate a poor man's context for programming with the help of AI tools.
 Result is copied to the clipboard in a format that may be easy readable by AI tools like ChatGPT, Open-source AI, or others.
 
