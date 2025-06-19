@@ -1,11 +1,10 @@
 # files-to-clipboard
 
 Simple Python script to copy multiple files to the clipboard. 
-
-I am using it in order to generate a context for programming with the help of AI tools.
+I am using it in order to generate a poor man's context for programming with the help of AI tools.
+Result is copied to the clipboard in a format that may be easy readable by AI tools like ChatGPT, Open-source AI, or others.
 
 The script is only working on Linux and requires `xclip` to be installed.
-
 You may create a pull request to add support for other operating systems.
 
 # Installation
@@ -20,18 +19,26 @@ sudo apt install xclip
 Copy the script to a directory in your PATH, for example:
 
 ```bash
-wget https://raw.githubusercontent.com/diversen/files-to-clipboard/refs/heads/main/files_to_clipboard.py
-sudo mv files_to_clipboard.py /usr/local/bin/files-to-clipboard
-sudo chmod +x /usr/local/bin/files-to-clipboard
+wget https://raw.githubusercontent.com/diversen/poor-mans-agent/refs/heads/main/poor-mans-agent.py
+sudo mv files_to_clipboard.py /usr/local/bin/poor-mans-agent
+sudo chmod +x /usr/local/bin/poor-mans-agent
 ```
 
 # Usage
 
+If in a PATH directory:
+
 ```bash
-./files_to_clipboard.py --tree files_to_clipboard.py tests/* --sys agents/programmer.md 
+poor-mans-agent--tree --sys agents/test.md test_content.py
 ```
 
-Will produce the following output:
+If cloned:
+
+```bash
+./poor-mans-agent.py --tree --sys agents/test.md test_content.py
+```
+
+Both script will produce the following output:
 
 ```xml
 <system>
@@ -40,16 +47,14 @@ Will produce the following output:
 This is a test.
 </system>
 
-<directory path='/home/dennis/files-to-clipboard'>
-/home/dennis/files-to-clipboard
+<directory path='/home/dennis/poor-mans-agent'>
+/home/dennis/poor-mans-agent
 ├── agents
 │   ├── programmer.md
 │   └── test.md
 ├── content.txt
 ├── files_to_clipboard.py
 ├── LICENSE
-├── __pycache__
-│   └── files_to_clipboard.cpython-312.pyc
 ├── README.md
 ├── test_content.py
 ├── test_files_to_clipboard.py
@@ -58,7 +63,7 @@ This is a test.
     ├── file_2.txt
     └── file_3.txt
 
-4 directories, 12 files
+3 directories, 11 files
 
 </directory>
 
@@ -66,4 +71,5 @@ This is a test.
 print("test_content.py loaded successfully.")
 print("!!!")
 </path>
+
 ```

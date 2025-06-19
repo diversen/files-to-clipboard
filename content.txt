@@ -4,16 +4,14 @@
 This is a test.
 </system>
 
-<directory path='/home/dennis/files-to-clipboard'>
-/home/dennis/files-to-clipboard
+<directory path='/home/dennis/poor-mans-agent'>
+/home/dennis/poor-mans-agent
 ├── agents
 │   ├── programmer.md
 │   └── test.md
 ├── content.txt
 ├── files_to_clipboard.py
 ├── LICENSE
-├── __pycache__
-│   └── files_to_clipboard.cpython-312.pyc
 ├── README.md
 ├── test_content.py
 ├── test_files_to_clipboard.py
@@ -22,10 +20,11 @@ This is a test.
     ├── file_2.txt
     └── file_3.txt
 
-4 directories, 12 files
+3 directories, 11 files
 
 </directory>
 
 <path='test_content.py'>
-print("Test test_content.py loaded successfully.")
+print("test_content.py loaded successfully.")
+print("!!!")
 </path>
