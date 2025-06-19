@@ -21,8 +21,8 @@ sudo apt install xclip
 Copy the script to a directory in your PATH, for example:
 
 ```bash
-wget https://raw.githubusercontent.com/diversen/poor-mans-agent/refs/heads/main/poor_mans_agent.py
-sudo mv poor_mans_agent.py /usr/local/bin/poor-mans-agent
+wget https://raw.githubusercontent.com/diversen/poor-mans-agent/refs/heads/main/poor_mans_agent.py -O pmg.py
+sudo mv pmg.py /usr/local/bin/poor-mans-agent
 sudo chmod +x /usr/local/bin/poor-mans-agent
 ```
 
