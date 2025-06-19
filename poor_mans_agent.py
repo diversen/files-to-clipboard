@@ -121,6 +121,9 @@ def main():
     parser.add_argument('files', nargs='*', help='List of file paths. Can be omitted if --tree or --sys is used.')
     parser.add_argument('--tree', action='store_true', help='Include a directory tree at the beginning.')
     parser.add_argument('--sys', type=str, help='Specify a system file to read and insert at the beginning.')
+
+    ## Add version information
+    parser.add_argument('--version', action='version', version='v0.0.0', help='Show version information and exit.')
     
     args = parser.parse_args()
     
